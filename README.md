@@ -1,7 +1,7 @@
 # CIDRIE_Learning
 
-# File Pasring and Data Extraction
-## This program done by splitting the contents in the given file
+## File Pasring and Data Extraction
+### This program done by splitting the contents in the given file
 ```
 with open("sample_logs.txt") as file:
     for line in file:
@@ -11,8 +11,8 @@ with open("sample_logs.txt") as file:
             print(f"{timestamp} {error}")
 ```
 
-# Library Management System
-## This program is to add new books to the library and show the status while borrowing. Also return status about the book availability
+## Library Management System
+### This program is to add new books to the library and show the status while borrowing. Also return status about the book availability
 ```
 class Book:
     def __init__(self, title, author):
@@ -67,8 +67,8 @@ else:
 library.show_books()
 ```
 
-# Pandas Analysis
-## First read a csv file and replaced the null values with mean value. Then displayed the mean of each subjects 
+## Pandas Analysis
+### First read a csv file and replaced the null values with mean value. Then displayed the mean of each subjects 
 ```
 import pandas as pd
 df = pd.read_csv("sample_data.csv")
@@ -91,8 +91,8 @@ print(df_filled)
 print("Average Marks per Subject:")
 print(sub_avg)
 ```
-# Time Complexity
-## This program is done by passing a million set and target value. If the sum of two numbers from the list is same as the target value then print pair found else print not found
+## Time Complexity
+### This program is done by passing a million set and target value. If the sum of two numbers from the list is same as the target value then print pair found else print not found
 ```
 def pair(nums, target):
     num_set = set()
